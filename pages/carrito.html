@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos.css">
+    <title>Carrito - MiniBoti's</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header_menu">
+        <img src="../assets/img/logo.png" alt="logo" id="logo1">
+        <h1>MiniBoti´s</h1>
+        <img src="../assets/img/logo2.png" alt="logo2" id="logo2">
+    </header>
+
+    <!-- Navegación -->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a href="menu.html" class="nav__link">Inicio</a>
+            </li>
+            <li class="nav__item">
+                <a href="carrito.html" class="nav__link">Carrito</a>
+            </li>
+            <li class="nav__item">
+                <a href="inicio_sesion.html" class="nav__link">Cerrar sesión</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Main Content - Carrito -->
+    <main class="carrito">
+        <section class="carrito__section">
+            <h2 class="carrito__titulo">Tu Carrito de Compras</h2>
+            
+            <!-- Contenedor de Productos en el Carrito -->
+            <div class="carrito__container">
+                <!-- Ejemplo de un artículo en el carrito -->
+                <article class="carrito__producto">
+                    <img src="../assets/img/producto1b.png" alt="producto1" class="carrito__img">
+                    <div class="carrito__info">
+                        <h3>Air Force 1 x Off Green</h3>
+                        <p>Cantidad: 1</p>
+                        <p>Precio: 180€</p>
+                        <button class="carrito__boton">Pagar</button>
+                        <button class="carrito__boton">Eliminar</button>
+                    </div>
+                </article>
+
+                <!-- Añadir más artículos al carrito como este -->
+                <article class="carrito__producto">
+                    <img src="../assets/img/producto2.png" alt="producto2" class="carrito__img">
+                    <div class="carrito__info">
+                        <h3>Jordan 4 Yellow Black</h3>
+                        <p>Cantidad: 1</p>
+                        <p>Precio: 170€</p>
+                        <button class="carrito__boton">Pagar</button>
+                        <button class="carrito__boton">Eliminar</button>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Total y botón de comprar -->
+            <div class="carrito__total">
+                <h3>Total: 350€</h3>
+                <button class="carrito__comprar">Pagar todo</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__socials">
+                <h3>Síguenos</h3>
+                <ul class="footer__social-list">
+                    <li class="footer__social-item">
+                        <a href="https://www.instagram.com" class="footer__social-link" target="_blank">
+                            <img src="../assets/img/instagram.png" alt="Instagram" class="footer__social-icon">
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="https://www.facebook.com" class="footer__social-link" target="_blank">
+                            <img src="../assets/img/facebook.png" alt="Facebook" class="footer__social-icon">
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="https://www.twitter.com" class="footer__social-link" target="_blank">
+                            <img src="../assets/img/twitter.png" alt="Twitter" class="footer__social-icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__contact">
+                <h3>Contacto</h3>
+                <ul class="footer__contact-list">
+                    <li>Email: <a href="mailto:contacto@miniboti.com">contacto@miniboti.com</a></li>
+                    <li>Teléfono: +34 633 467 629</li>
+                </ul>
+            </div>
+
+            <div class="footer__copyright">
+                <p>&copy; 2024 MiniBoti´s. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
