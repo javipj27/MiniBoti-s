@@ -333,22 +333,22 @@ form input[type="submit"]:hover {
     height: 300px;
 }
 .producto__card:nth-child(1) .producto__img:hover {
-    content: url("../assets/img/producto1.webp");
+    content: url("assets/img/producto1.webp");
 }
 .producto__card:nth-child(2) .producto__img:hover {
-    content: url("../assets/img/producto2b.webp");
+    content: url("assets/img/producto2b.webp");
 }
 .producto__card:nth-child(3) .producto__img:hover {
-    content: url("../assets/img/producto3b.jpg");
+    content: url("assets/img/producto3b.jpg");
 }
 .producto__card:nth-child(4) .producto__img:hover {
-    content: url("../assets/img/producto4.png");
+    content: url("assets/img/producto4.png");
 }
 .producto__card:nth-child(5) .producto__img:hover {
-    content: url("../assets/img/producto5.webp"); 
+    content: url("assets/img/producto5.webp"); 
 }
 .producto__card:nth-child(6) .producto__img:hover {
-    content: url("../assets/img/producto6.webp"); 
+    content: url("assets/img/producto6.webp"); 
 }
 
 
